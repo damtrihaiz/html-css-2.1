@@ -278,3 +278,56 @@ a {
 }
 
 /* =============Feature========== */
+
+.feature {
+    margin-top: 65px;
+    padding: 65px 0;
+}
+
+.feature .main-content {
+    padding-right: 146px;
+}
+
+.feature .feature-text .label {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.feature .feature-text h2 {
+    max-width: 577px;
+    padding: 18px 0;
+}
+
+.feature .feature-text .desc {
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 590px;
+}
+
+.feature .feature-section {
+    margin-top: 80px;
+    display: flex;
+}
+
+.feature .feature-section .item:nth-child(2) {
+    margin: 0 200px 0 209px;
+}
+
+.feature .feature-section .item .title {
+    margin-top: 26px;
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.feature .feature-section .item .desc {
+    margin-top: 16px;
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69;
+}
