@@ -331,3 +331,105 @@ a {
     font-weight: 400;
     line-height: 1.69;
 }
+
+/* =============Popular========== */
+.popular {
+    padding: 65px 0;
+}
+
+.popular-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-top .info {
+    max-width: 525px;
+}
+
+.popular-top .info .label {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.popular-top .info .desc {
+    margin-top: 19px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+}
+
+/* .popular-top .info .view {
+    margin-top: 139px;
+} */
+
+.popular .popular-top a {
+    margin-top: 139px;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.popular .course-list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+.popular .course-list .course-item {
+    width: 33.33%;
+    position: relative;
+}
+
+.popular .course-list .course-item .thumb {
+    object-fit: cover;
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+    opacity: 0.5;
+    background: #d0efed;
+}
+
+.popular .course-list .course-item .info {
+    position: absolute;
+    bottom: -124px;
+    left: 17px;
+    right: 17px;
+    max-width: 325px;
+    padding: 18px 25px 29px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular .course-list .course-item .info .value {
+    color: #767e7e;
+    font-size: 1.6rem;
+    margin: 16px 0 12px;
+}
+
+.popular .course-list .course-item .info .desc {
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.popular .course-list .course-item .info .stat {
+    margin-top: 18px;
+    margin-left: -10px;
+    display: flex;
+}
+
+.popular .course-list .course-item .info .stat p::before {
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    margin: 0 10px;
+}
