@@ -573,3 +573,31 @@ a {
     right: 32px;
     bottom: 29px;
 }
+
+/* =============Action========== */
+
+.action {
+    margin-top: 65px;
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+
+.action .body {
+    display: flex;
+    align-items: center;
+    gap: 410px;
+}
+
+.action .body .title {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.action .body .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
